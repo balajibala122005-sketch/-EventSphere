@@ -1,0 +1,29 @@
+# Eclipse / Spring Tools
+.vscode/
+.metadata/
+Backend/.metadata/
+Backend/.recommenders/
+
+# Java / Spring Boot
+**/target/
+*.class
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
